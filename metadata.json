@@ -1,0 +1,6 @@
+{
+  "name": "MUSLIM SHOP",
+  "description": "Интернет-магазин исламских товаров в г. Атырау, ТД «Дина Байзар», бутик №24. Каталог, iHerb витамины, заказ в 1 клик через WhatsApp, расписание намаза и админ-панель.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
