@@ -1,0 +1,1121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MUSLIM SHOP — Атырау</title>
+<meta name="description" content="MUSLIM SHOP: исламские товары, витамины, натуральные средства, парфюмерия. Атырау, рынок Дина, бутик 24.">
+<!-- ВАЖНО: вставьте сюда ваш код подтверждения Google (строку <meta name="google-site-verification" ...> из Search Console) вместо этой строки -->
+<meta name="google-site-verification" content="ВСТАВЬТЕ_КОД_GOOGLE">
+<meta property="og:title" content="MUSLIM SHOP — Атырау">
+<meta property="og:description" content="Интернет-магазин: исламские товары, здоровье, натуральные средства.">
+<meta name="theme-color" content="#1F2022">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{
+  --black:#141414; --graphite:#2A2B2D; --graphite2:#3A3B3E;
+  --white:#FFFFFF; --gray:#F1F1EF; --gray2:#DADAD6; --muted:#5E5F62;
+  --gold:#B08D57; --gold-dark:#8A6B3A;
+  --r:6px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PT Sans",Arial,sans-serif;font-size:18px;line-height:1.5;color:var(--black);background:var(--gray);padding-bottom:env(safe-area-inset-bottom,0)}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.lang-kk{display:none}
+
+/* header */
+header{background:var(--graphite);color:var(--white);position:sticky;top:0;z-index:30;border-bottom:3px solid var(--gold)}
+.hbar{display:flex;align-items:center;gap:8px;min-height:64px}
+.logo{font-weight:700;font-size:21px;letter-spacing:.06em;text-decoration:none;color:var(--white);flex:1;white-space:nowrap}
+.logo small{display:block;font-size:12px;letter-spacing:.08em;color:var(--gold);font-weight:400}
+.hbtn{min-height:48px;min-width:48px;background:transparent;border:1px solid var(--graphite2);color:var(--white);border-radius:var(--r);padding:0 12px;cursor:pointer;font-weight:700;position:relative;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px}
+.hbtn:hover{border-color:var(--gold)}
+.badge{position:absolute;top:-8px;right:-8px;background:var(--gold);color:var(--black);border-radius:12px;min-width:24px;height:24px;font-size:14px;display:flex;align-items:center;justify-content:center;padding:0 5px}
+.langsw{display:flex;border:1px solid var(--graphite2);border-radius:var(--r);overflow:hidden}
+.langsw button{background:none;border:0;color:#bbb;min-height:48px;padding:0 12px;cursor:pointer;font-weight:700;font-size:16px}
+.langsw button.on{background:var(--gold);color:var(--black)}
+
+/* drawer */
+#drawer{position:fixed;inset:0;z-index:50;display:none}
+#drawer.open{display:block}
+#drawer .shade{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+#drawer nav{position:absolute;left:0;top:0;bottom:0;width:min(88vw,380px);background:var(--white);overflow:auto;padding:16px 0}
+#drawer nav a{display:block;padding:14px 20px;text-decoration:none;font-size:19px;border-bottom:1px solid var(--gray)}
+#drawer nav a:hover{background:var(--gray)}
+#drawer .dh{padding:4px 20px 12px;font-weight:700;color:var(--gold-dark)}
+
+/* search */
+.search{display:flex;gap:8px;padding:16px 0}
+.search input{flex:1;min-width:0;height:60px;border:2px solid var(--graphite);border-radius:var(--r);padding:0 16px;font-size:20px;background:var(--white)}
+.search button{height:60px;padding:0 22px;border:0;border-radius:var(--r);background:var(--black);color:var(--white);font-weight:700;cursor:pointer;font-size:17px}
+
+/* sections */
+section{padding:20px 0}
+h1{font-size:30px;line-height:1.2;margin-bottom:12px}
+h2{font-size:26px;line-height:1.2;margin-bottom:14px;padding-left:12px;border-left:5px solid var(--gold)}
+.more{display:inline-block;margin-top:14px;font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:56px;padding:0 20px;border:2px solid var(--black);background:var(--black);color:var(--white);border-radius:var(--r);font-weight:700;font-size:17px;cursor:pointer;text-decoration:none;text-align:center}
+.btn:hover{background:var(--graphite)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--black)}
+.btn.gold:hover{background:#C29E66}
+.btn.line{background:var(--white);color:var(--black)}
+.btn.line:hover{background:var(--gray)}
+.btn.sm{min-height:48px;font-size:16px;padding:0 12px}
+.btn.block{width:100%}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.cat{background:var(--white);border:1px solid var(--gray2);border-left:5px solid var(--gold);border-radius:var(--r);padding:16px 14px;min-height:76px;display:flex;align-items:center;text-decoration:none;font-weight:700;font-size:18px;line-height:1.25}
+.cat:hover{background:var(--graphite);color:var(--white)}
+.cats-extra{display:none;margin-top:10px}
+.cats-extra.open{display:grid}
+
+/* products */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.ph{display:block;aspect-ratio:1/1;background:var(--graphite);position:relative;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph .noimg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:64px;color:var(--gold);font-weight:700}
+.tag{position:absolute;left:8px;top:8px;background:var(--gold);color:var(--black);font-weight:700;font-size:14px;padding:2px 8px;border-radius:3px}
+.cb{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.cn{font-size:18px;line-height:1.25;font-weight:700;text-decoration:none;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:68px}
+.price{font-size:26px;font-weight:700;line-height:1.1;white-space:nowrap}
+.old{font-size:17px;color:var(--muted);text-decoration:line-through;margin-left:6px;font-weight:400}
+.stock{font-size:16px;font-weight:700}
+.stock.in{color:#2F5D3A}
+.stock.out{color:#7A2E2E}
+.cb .btn{margin-top:auto}
+.cb .row{display:grid;gap:8px;margin-top:auto}
+.empty{background:var(--white);border:1px dashed var(--gray2);padding:28px 16px;text-align:center;border-radius:var(--r)}
+
+/* catalog filters */
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+.chip{flex:none;min-height:48px;padding:0 16px;border:1px solid var(--gray2);background:var(--white);border-radius:24px;text-decoration:none;display:inline-flex;align-items:center;font-weight:700;font-size:16px;white-space:nowrap}
+.chip.on{background:var(--black);color:var(--white);border-color:var(--black)}
+.filters{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:14px;margin:12px 0;display:grid;gap:12px}
+.filters label{display:block;font-weight:700;font-size:16px;margin-bottom:4px}
+.filters input[type=number],.filters select{width:100%;height:52px;border:1px solid var(--graphite2);border-radius:var(--r);padding:0 12px;background:var(--white)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.checks{display:flex;flex-wrap:wrap;gap:8px 18px}
+.checks label{display:flex;align-items:center;gap:8px;margin:0;font-weight:400;min-height:44px;font-size:17px}
+.checks input{width:24px;height:24px;accent-color:var(--gold-dark)}
+
+/* product page */
+.pp{display:grid;gap:18px}
+.pp .ph{aspect-ratio:1/1;border:1px solid var(--gray2);border-radius:var(--r);background:var(--white)}
+.pp .price{font-size:40px}
+.pp .old{font-size:22px}
+.pp h1{font-size:30px}
+.sku{color:var(--muted);font-size:16px}
+.desc{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:16px;font-size:19px;line-height:1.6;white-space:pre-line}
+table.specs{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--gray2);font-size:18px}
+table.specs td{padding:12px;border-bottom:1px solid var(--gray2);vertical-align:top}
+table.specs td:first-child{color:var(--muted);width:42%}
+.qty{display:flex;align-items:center;gap:0}
+.qty button{width:56px;height:56px;border:2px solid var(--black);background:var(--white);font-size:28px;font-weight:700;cursor:pointer}
+.qty button:first-child{border-radius:var(--r) 0 0 var(--r)}
+.qty button:last-child{border-radius:0 var(--r) var(--r) 0}
+.qty span{min-width:64px;height:56px;border-top:2px solid var(--black);border-bottom:2px solid var(--black);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:22px;background:var(--white)}
+.actions{display:grid;gap:10px}
+.crumbs{font-size:16px;color:var(--muted);padding:14px 0 0}
+.crumbs a{color:var(--gold-dark);font-weight:700}
+
+/* cart */
+.line-item{display:grid;grid-template-columns:96px 1fr;gap:12px;background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:10px;margin-bottom:10px}
+.line-item .ph{aspect-ratio:1/1;border-radius:4px}
+.line-item .noimg{font-size:36px}
+.li-b{display:flex;flex-direction:column;gap:8px}
+.li-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:space-between}
+.mini{display:flex;align-items:center}
+.mini button{width:48px;height:48px;border:2px solid var(--black);background:var(--white);font-size:24px;font-weight:700;cursor:pointer}
+.mini span{min-width:48px;height:48px;border-top:2px solid var(--black);border-bottom:2px solid var(--black);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;background:var(--white)}
+.total{background:var(--graphite);color:var(--white);border-radius:var(--r);padding:16px;display:flex;justify-content:space-between;align-items:center;font-size:22px;font-weight:700;margin:14px 0}
+.total b{color:var(--gold);font-size:30px}
+.form{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:16px;display:grid;gap:12px}
+.form label{font-weight:700;font-size:16px;display:block;margin-bottom:4px}
+.form input,.form select,.form textarea{width:100%;min-height:54px;border:1px solid var(--graphite2);border-radius:var(--r);padding:10px 12px;background:var(--white)}
+.form textarea{min-height:110px;resize:vertical}
+.note{background:#F6EFE2;border-left:5px solid var(--gold);padding:12px 14px;border-radius:var(--r);font-size:16px;line-height:1.45}
+
+/* about / contacts */
+.about{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:18px;font-size:19px;line-height:1.6}
+.socs{display:grid;gap:10px}
+.soc{display:flex;flex-direction:column;background:var(--graphite);color:var(--white);text-decoration:none;padding:14px 16px;border-radius:var(--r);border-left:5px solid var(--gold);min-height:64px;justify-content:center}
+.soc small{color:var(--gold);font-size:15px}
+.soc b{font-size:20px}
+.contacts{background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:18px;display:grid;gap:8px;font-size:19px}
+.contacts a{font-weight:700}
+footer{background:var(--black);color:#ddd;margin-top:24px;padding:28px 0 36px;font-size:17px;border-top:3px solid var(--gold)}
+footer .fg{display:grid;gap:22px}
+footer h3{color:var(--gold);font-size:18px;margin-bottom:8px}
+footer a{display:block;padding:6px 0;text-decoration:none;color:#fff}
+footer a:hover{color:var(--gold)}
+.copy{margin-top:20px;color:#9a9a9a;font-size:15px}
+
+/* admin */
+.adm-row{display:grid;grid-template-columns:64px 1fr;gap:10px;background:var(--white);border:1px solid var(--gray2);border-radius:var(--r);padding:10px;margin-bottom:8px;align-items:center}
+.adm-row .ph{width:64px;height:64px;aspect-ratio:auto}
+.adm-row .noimg{font-size:28px}
+.adm-btns{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
+.hidden-badge{display:inline-block;background:var(--graphite2);color:#fff;font-size:14px;padding:1px 8px;border-radius:3px;margin-left:6px}
+.preview{width:140px;height:140px;object-fit:cover;border-radius:var(--r);border:1px solid var(--gray2);background:var(--graphite)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0));transform:translateX(-50%);background:var(--black);color:#fff;padding:14px 22px;border-radius:var(--r);border-left:5px solid var(--gold);z-index:99;display:none;max-width:90vw;font-weight:700}
+
+@media(min-width:640px){
+  .cats{grid-template-columns:repeat(3,1fr)}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .pp{grid-template-columns:1fr 1fr;align-items:start}
+  .socs{grid-template-columns:repeat(3,1fr)}
+  footer .fg{grid-template-columns:2fr 1fr 1fr}
+  .actions{grid-template-columns:1fr 1fr}
+}
+@media(min-width:960px){
+  .cats{grid-template-columns:repeat(4,1fr)}
+  .grid{grid-template-columns:repeat(4,1fr)}
+}
+/* ===== premium layer ===== */
+:root{--serif:"Playfair Display",Georgia,"Times New Roman",serif;--shadow:0 1px 2px rgba(20,20,20,.06),0 10px 28px rgba(20,20,20,.08);--r:10px;
+  --pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23B08D57' stroke-opacity='.22' stroke-width='1'%3E%3Crect x='16' y='16' width='40' height='40'/%3E%3Crect x='16' y='16' width='40' height='40' transform='rotate(45 36 36)'/%3E%3Ccircle cx='36' cy='36' r='6'/%3E%3C/g%3E%3C/svg%3E")}
+body{background:#F4F3F0}
+header{border-bottom:0;box-shadow:0 3px 0 var(--gold),0 6px 18px rgba(0,0,0,.18)}
+.logo{font-family:var(--serif);font-size:22px;letter-spacing:.14em}
+.logo small{font-family:"PT Sans",Arial,sans-serif;letter-spacing:.1em;margin-top:2px}
+h1,h2{font-family:var(--serif);font-weight:700}
+h2{border:0;padding:0 0 12px;position:relative;font-size:28px;margin-bottom:18px}
+h2::after{content:"";position:absolute;left:0;bottom:0;width:60px;height:3px;background:var(--gold)}
+.btn{border-radius:8px;letter-spacing:.03em;transition:background .15s,transform .1s}
+.btn:active{transform:scale(.98)}
+.btn.gold{box-shadow:0 4px 14px rgba(176,141,87,.35)}
+.hbtn,.langsw{border-radius:8px}
+
+.hero{background:#25262A;color:#fff;position:relative;padding:28px 0 6px;box-shadow:0 0 0 100vmax #25262A;clip-path:inset(0 -100vmax)}
+.hero::before{content:"";position:absolute;inset:0;background:var(--pat);opacity:.9;pointer-events:none}
+.hero>*{position:relative}
+.hero h1{font-size:34px;color:#fff;letter-spacing:.06em;margin-bottom:6px}
+.hero p{color:#D9D5CC;font-size:19px;line-height:1.4;max-width:560px}
+.hero .search{padding:18px 0 16px}
+.hero .search input{border:2px solid var(--gold);height:64px;font-size:21px;border-radius:10px}
+.hero .search button{background:var(--gold);color:var(--black);height:64px;border-radius:10px;font-size:18px}
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0 0 24px}
+.trust div{border:1px solid rgba(176,141,87,.55);border-radius:8px;padding:10px;font-size:14px;line-height:1.3;color:#E6E3DC;background:rgba(0,0,0,.18)}
+.trust b{display:block;color:var(--gold);font-size:16px}
+
+.cat{background:linear-gradient(145deg,#303134,#1C1D1F);color:#fff;border:0;border-bottom:3px solid var(--gold);border-radius:10px;min-height:96px;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:14px;box-shadow:var(--shadow);position:relative;overflow:hidden;gap:8px}
+.cat::after{content:"";position:absolute;right:-18px;bottom:-18px;width:90px;height:90px;background:var(--pat);background-size:72px;opacity:.9;pointer-events:none}
+.cat span{position:relative;z-index:1}
+.cat small{color:var(--gold);font-weight:400;font-size:15px;position:relative;z-index:1}
+.cat:hover{background:linear-gradient(145deg,#3B3C40,#26272A);color:#fff}
+
+.card{border:0;border-radius:12px;box-shadow:var(--shadow);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(20,20,20,.08),0 14px 32px rgba(20,20,20,.12)}
+.ph{background:#E9E7E2}
+.noimg{background:var(--pat),linear-gradient(150deg,#34353A,#18191B);font-family:var(--serif)}
+.tag{border-radius:20px;padding:3px 10px}
+.tag.disc{left:auto;right:8px;background:var(--black);color:var(--gold)}
+.price{font-family:var(--serif)}
+.cn{font-size:18px}
+.line-item,.about,.contacts,.form,.desc,.filters,.empty{box-shadow:var(--shadow);border-color:transparent;border-radius:12px}
+.about{border-left:5px solid var(--gold);font-size:20px}
+.soc{border-radius:12px;box-shadow:var(--shadow);background:linear-gradient(145deg,#303134,#1C1D1F)}
+.total{border-radius:12px}
+.chip{box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.pp .ph{border:0;box-shadow:var(--shadow);border-radius:14px}
+.pp .price{font-size:42px}
+.crumbs{padding-top:16px}
+
+.sticky-buy{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:3px solid var(--gold);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:14px;align-items:center;z-index:25;box-shadow:0 -8px 24px rgba(0,0,0,.14)}
+.sticky-buy .price{font-size:26px}
+.sticky-buy .old{display:block;margin:0;font-size:15px}
+.sticky-buy .btn{flex:1}
+.spacer{height:84px}
+@media(min-width:640px){.sticky-buy,.spacer{display:none}.hero h1{font-size:44px}.trust div{font-size:16px}}
+#toast{top:84px;bottom:auto}
+.lock{display:inline-block;padding:10px 12px;margin:-10px -6px -10px 0;opacity:.32;color:inherit;vertical-align:middle;line-height:1;text-decoration:none}
+.lock:hover,.lock:focus-visible{opacity:.9}
+.lock svg{width:12px;height:12px;display:block}
+/* галерея и фото в админке */
+.thumbs{display:flex;gap:8px;margin-top:10px;overflow-x:auto}
+.thumbs button{flex:none;width:72px;height:72px;border:2px solid var(--gray2);border-radius:8px;padding:0;overflow:hidden;background:#fff;cursor:pointer}
+.thumbs button.on{border-color:var(--gold)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.ie{display:inline-flex;flex-direction:column;gap:6px;margin:0 8px 8px 0;width:110px;vertical-align:top}
+.ie img{width:110px;height:110px;object-fit:cover;border-radius:8px;border:1px solid var(--gray2)}
+/* узкие телефоны: шапка не должна выталкивать корзину и RU|KZ за экран */
+.hbar{gap:6px}
+.logo{min-width:0;overflow:hidden;font-size:19px;letter-spacing:.08em}
+.logo small{font-size:9px;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hbtn{padding:0 10px;flex:none}
+.langsw{flex:none}.langsw button{padding:0 10px}
+@media(max-width:560px){.m-t{display:none}}
+@media(max-width:420px){.logo{font-size:clamp(13px,3.7vw,17px);letter-spacing:.02em}.logo small{display:none}.hbtn{padding:0 8px;min-width:44px}.langsw button{padding:0 8px}}
+@media(min-width:561px){.logo{font-size:22px;letter-spacing:.14em}.logo small{font-size:12px;letter-spacing:.1em}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn{transition:none}}
+
+/* карточка товара: фото в формате 9:16 целиком */
+.pp .ph{aspect-ratio:9/16;background:#E9E7E2}
+.pp .ph img{object-fit:contain}
+@media(min-width:720px){.pp .ph{max-width:420px;margin:0 auto;width:100%}}
+
+/* карточки в списках: фото 9:16 целиком */
+.card .ph{aspect-ratio:9/16;background:#E9E7E2}
+.card .ph img,.line-item .ph img{object-fit:contain}
+
+#ver{position:fixed;left:6px;bottom:3px;font-size:11px;color:#777;opacity:.7;z-index:1;pointer-events:none}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hbar">
+    <button class="hbtn" data-act="menu" aria-label="Меню" id="menubtn">☰ <span class="m-t" style="margin-left:6px"></span></button>
+    <a class="logo" href="#/">MUSLIM SHOP<small>АТЫРАУ • РЫНОК ДИНА • БУТИК 24</small></a>
+    <div class="langsw" role="group" aria-label="Язык">
+      <button data-act="lang" data-id="ru">RU</button><button data-act="lang" data-id="kk">KZ</button>
+    </div>
+    <a class="hbtn" href="#/cart" aria-label="Корзина" id="cartbtn"><span aria-hidden="true">🛒</span><span class="badge" id="cartcount" style="display:none">0</span></a>
+  </div>
+</header>
+
+<div id="drawer"><div class="shade" data-act="closemenu"></div><nav id="drawernav"></nav></div>
+<main id="app" class="wrap"></main>
+<div id="foot"></div>
+<div id="toast" role="status"></div>
+
+<script type="module">
+let initializeApp,getFirestore,collection,getDocs,getDoc,query,limit,doc,setDoc,addDoc,deleteDoc,serverTimestamp,Timestamp,getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut;
+
+/* ============ Firebase: вставьте сюда настройки вашего веб-приложения ============
+   Firebase Console → ⚙ Project settings → Your apps → Web app → firebaseConfig.
+   Эти значения не секретные, их можно хранить в коде сайта. */
+const FIREBASE_CONFIG={
+  apiKey:"AIzaSyCCNwtzhDTBPB8GU_Ls7ogvN5xyUDOez3M",
+  authDomain:"muslim-shop-55c12.firebaseapp.com",
+  projectId:"muslim-shop-55c12",
+  storageBucket:"muslim-shop-55c12.firebasestorage.app",
+  messagingSenderId:"716225520823",
+  appId:"1:716225520823:web:7a82d8b680dd7251489932"
+};
+
+/* Почта владельца (пользователь в Firebase Authentication). PIN = пароль этого пользователя. */
+const ADMIN_EMAIL='Kair7877@gmail.com';
+
+const CONFIGURED=!!(FIREBASE_CONFIG.apiKey&&FIREBASE_CONFIG.appId);
+let FBLOAD_ERR='';
+const FBP=CONFIGURED?(async()=>{
+  try{
+    const V='10.12.2',B='https://www.gstatic.com/firebasejs/'+V+'/';
+    const [A,F,Au]=await Promise.all([import(B+'firebase-app.js'),import(B+'firebase-firestore.js'),import(B+'firebase-auth.js')]);
+    ({initializeApp}=A);
+    ({getFirestore,collection,getDocs,getDoc,query,limit,doc,setDoc,addDoc,deleteDoc,serverTimestamp,Timestamp}=F);
+    ({getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut}=Au);
+  }catch(e){FBLOAD_ERR='Не удалось загрузить Firebase: '+String(e&&e.message||e)}
+})():Promise.resolve();
+
+/* ============ Utilities ============ */
+const $=(s,r=document)=>r.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const LS={
+  get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}}
+};
+const money=n=>String(Math.round(Number(n)||0)).replace(/\B(?=(\d{3})+(?!\d))/g,'\u00A0')+'\u00A0₸';
+const CONTACT={
+  phone:'+7 778 175 42 41', wa:'77781754241',
+  address:'пр. Султана Бейбарыса, 45а/5, Атырау, Казахстан',
+  ig:'https://www.instagram.com/musliim_shop06?stkn=dnAzejJ2cm5nOXNi',
+  tt:'https://www.tiktok.com/@muslim_shop06?_r=1&_t=ZS-9AFgdLAOcZ2',
+  tg:'https://t.me/muslim_shop06'
+};
+let toastT;
+function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toastT);toastT=setTimeout(()=>t.style.display='none',2600)}
+
+/* ============ i18n ============ */
+const T={
+ ru:{menu:'Меню',search_ph:'Поиск товаров',find:'Найти',cats:'Категории',allcats:'ВСЕ КАТЕГОРИИ',hidecats:'СВЕРНУТЬ',popular:'Популярные товары',news:'Новинки',featured:'Рекомендуемые товары',all_items:'Все товары',
+  about:'О MUSLIM SHOP',about_txt:'MUSLIM SHOP — магазин в Атырау на рынке Дина, бутик 24. Исламские товары, витамины, натуральные средства, парфюмерия и товары для здоровья. Заказывайте на сайте или приходите в бутик.',
+  social:'МЫ В СОЦИАЛЬНЫХ СЕТЯХ',contacts:'КОНТАКТЫ',catalog:'КАТАЛОГ',home:'Главная',cart:'Корзина',phone:'Телефон',addr:'Адрес',
+  more:'ПОДРОБНЕЕ',tocart:'В КОРЗИНУ',order:'ЗАКАЗАТЬ',share:'ПОДЕЛИТЬСЯ',copy:'🔗 СКОПИРОВАТЬ ССЫЛКУ',in:'В наличии',out:'Нет в наличии',
+  qty:'Количество',desc:'Описание',specs:'Характеристики',sku:'Артикул',new_:'Новинка',
+  filters:'ФИЛЬТРЫ',sort:'Сортировка',s_pop:'По популярности',s_asc:'Сначала дешёвые',s_desc:'Сначала дорогие',s_new:'Новинки',
+  price_from:'Цена от, ₸',price_to:'Цена до, ₸',only_in:'Только в наличии',only_new:'Новинки',only_pop:'Популярные',all:'Все',
+  nothing:'Ничего не найдено. Измените запрос или фильтры.',found:'Найдено товаров:',
+  cart_empty:'Корзина пуста. Выберите товар в каталоге.',total:'Итого',remove:'Удалить',checkout:'Оформить заказ',
+  name:'Ваше имя',tel:'Телефон',comment:'Комментарий к заказу',send_wa:'ОТПРАВИТЬ ЗАКАЗ В WHATSAPP',
+  checkout_note:'Заказ откроется в WhatsApp уже заполненным. Нажмите «Отправить», и мы свяжемся с вами для подтверждения и оплаты.',
+  fill:'Укажите имя и телефон',copied:'Ссылка скопирована',added:'Добавлено в корзину',notfound:'Товар не найден или скрыт.',back:'← В каталог',
+  qty_unit:'шт.',menu_nav:'Навигация',err_load:'Не удалось загрузить товары. Попробуйте обновить страницу.',addr_txt:'пр. Султана Бейбарыса, 45а/5, Атырау, Казахстан',
+  hero_sub:'Исламские товары, здоровье и натуральные средства в Атырау',itemsn:'Товаров:',
+  trust:[['Бутик 24','Рынок Дина, Атырау'],['Заказ','через WhatsApp'],['Цены','в тенге ₸']]},
+ kk:{menu:'Мәзір',search_ph:'Тауар іздеу',find:'Іздеу',cats:'Санаттар',allcats:'БАРЛЫҚ САНАТТАР',hidecats:'ЖИНАУ',popular:'Танымал тауарлар',news:'Жаңалықтар',featured:'Ұсынылатын тауарлар',all_items:'Барлық тауарлар',
+  about:'MUSLIM SHOP ТУРАЛЫ',about_txt:'MUSLIM SHOP — Атыраудағы Дина базарындағы 24-бутик. Исламдық тауарлар, дәрумендер, табиғи құралдар, парфюмерия және денсаулыққа арналған тауарлар. Сайттан тапсырыс беріңіз немесе бутикке келіңіз.',
+  social:'ӘЛЕУМЕТТІК ЖЕЛІЛЕРДЕМІЗ',contacts:'БАЙЛАНЫС',catalog:'КАТАЛОГ',home:'Басты бет',cart:'Себет',phone:'Телефон',addr:'Мекенжай',
+  more:'ТОЛЫҒЫРАҚ',tocart:'СЕБЕТКЕ',order:'ТАПСЫРЫС БЕРУ',share:'БӨЛІСУ',copy:'🔗 СІЛТЕМЕНІ КӨШІРУ',in:'Бар',out:'Жоқ',
+  qty:'Саны',desc:'Сипаттама',specs:'Сипаттамалары',sku:'Артикул',new_:'Жаңа',
+  filters:'СҮЗГІЛЕР',sort:'Сұрыптау',s_pop:'Танымалдығы бойынша',s_asc:'Алдымен арзандары',s_desc:'Алдымен қымбаттары',s_new:'Жаңалар',
+  price_from:'Бағасы, бастап ₸',price_to:'Бағасы, дейін ₸',only_in:'Тек бары',only_new:'Жаңалар',only_pop:'Танымалдар',all:'Барлығы',
+  nothing:'Ештеңе табылмады. Сұранысты немесе сүзгілерді өзгертіңіз.',found:'Табылған тауар:',
+  cart_empty:'Себет бос. Каталогтан тауар таңдаңыз.',total:'Барлығы',remove:'Жою',checkout:'Тапсырысты рәсімдеу',
+  name:'Атыңыз',tel:'Телефон',comment:'Тапсырысқа түсініктеме',send_wa:'ТАПСЫРЫСТЫ WHATSAPP-ҚА ЖІБЕРУ',
+  checkout_note:'Тапсырыс WhatsApp-та толтырылған күйде ашылады. «Жіберу» түймесін басыңыз, біз растау және төлем үшін хабарласамыз.',
+  fill:'Аты мен телефонды көрсетіңіз',copied:'Сілтеме көшірілді',added:'Себетке қосылды',notfound:'Тауар табылмады немесе жасырылған.',back:'← Каталогқа',
+  qty_unit:'дана',menu_nav:'Бөлімдер',err_load:'Тауарларды жүктеу мүмкін болмады. Бетті жаңартып көріңіз.',addr_txt:'Сұлтан Бейбарыс даңғылы, 45а/5, Атырау, Қазақстан',
+  hero_sub:'Атырауда исламдық тауарлар, денсаулық және табиғи құралдар',itemsn:'Тауар:',
+  trust:[['24-бутик','Дина базары, Атырау'],['Тапсырыс','WhatsApp арқылы'],['Бағасы','теңгемен ₸']]}
+};
+let lang=LS.get('ms_lang','ru'); if(lang!=='kk')lang='ru';
+const t=k=>(T[lang][k]??T.ru[k]??k);
+const L=o=>o?(o[lang]||o.ru||''):'';
+
+/* ============ Data ============ */
+const BUILTIN_CATS=[
+ {id:'islam',main:1,name:{ru:'Исламские товары',kk:'Исламдық тауарлар'}},
+ {id:'vit',main:1,name:{ru:'Витамины и БАД',kk:'Дәрумендер мен БАД'}},
+ {id:'health',main:1,name:{ru:'Здоровье',kk:'Денсаулық'}},
+ {id:'men',main:1,name:{ru:'Мужское здоровье',kk:'Ерлер денсаулығы'}},
+ {id:'women',main:1,name:{ru:'Женское здоровье',kk:'Әйелдер денсаулығы'}},
+ {id:'kids',main:1,name:{ru:'Детское здоровье',kk:'Балалар денсаулығы'}},
+ {id:'honey',main:1,name:{ru:'Мёд и натуральные продукты',kk:'Бал және табиғи өнімдер'}},
+ {id:'natural',main:1,name:{ru:'Натуральные средства',kk:'Табиғи құралдар'}},
+ {id:'perfume',main:0,name:{ru:'Парфюмерия и миски',kk:'Парфюмерия және миск'}},
+ {id:'prayer',main:0,name:{ru:'Жейнамазы',kk:'Жайнамаздар'}},
+ {id:'hijama',main:0,name:{ru:'Хиджама',kk:'Хиджама'}},
+ {id:'collagen',main:0,name:{ru:'Коллаген',kk:'Коллаген'}},
+ {id:'syrups',main:0,name:{ru:'Сиропы',kk:'Сироптар'}},
+ {id:'gain',main:0,name:{ru:'Для набора веса',kk:'Салмақ қосу үшін'}}
+];
+/* В проекте две базы Firestore: именная (создана в Google AI Studio) и (default). Сайт сам находит ту, где лежат товары. */
+const DB_IDS=['ai-studio-muslimshop-6c5697f5-1412-4eb6-8d95-aa2cc7a70c7b','(default)'];
+let fdb=null,fdbs=[],dbPicked=false,DBNAME='',fauth=null,authUser=null,LOAD_ERR=FBLOAD_ERR,started=false,FBCATS=null;
+async function fbInit(){await FBP;if(FBLOAD_ERR)LOAD_ERR=FBLOAD_ERR;if(CONFIGURED&&initializeApp){try{const app=initializeApp(FIREBASE_CONFIG);fdbs=[getFirestore(app,DB_IDS[0]),getFirestore(app)];fdb=fdbs[0];DBNAME=DB_IDS[0];fauth=getAuth(app)}catch(e){LOAD_ERR=String(e&&e.message||e)}}}
+async function pickDb(){
+  if(dbPicked||!fdbs.length)return;
+  let saved=-1;try{saved=parseInt(localStorage.getItem('ms_db')||'-1',10)}catch(e){}
+  const order=saved===1?[1,0]:[0,1];
+  let fb=null;
+  for(const i of order){
+    for(const col of ['catalog','products']){
+      try{
+        const sn=await getDocs(query(collection(fdbs[i],col),limit(1)));
+        if(sn.docs.length){fdb=fdbs[i];DBNAME=DB_IDS[i];dbPicked=true;try{localStorage.setItem('ms_db',String(i))}catch(e){}return}
+      }catch(e){}
+    }
+    if(fb===null)fb=i;
+  }
+  const k=fb===null?0:fb;fdb=fdbs[k];DBNAME=DB_IDS[k];dbPicked=true;
+}
+let DB={cats:BUILTIN_CATS,products:[],loaded:false};
+const isAdmin=()=>!!authUser;
+const fbInitP=fbInit();
+const authReady=fbInitP.then(()=>new Promise(res=>{
+  if(!fauth)return res();
+  try{onAuthStateChanged(fauth,u=>{const was=!!authUser;authUser=u;res();if(started&&was!==!!u)render()})}catch(e){res()}
+}));
+
+/* документ Firestore -> товар для интерфейса (чтение терпимо к разным полям) */
+const KNOWN_F=new Set(['titleRu','titleKz','title','name','sku','specs','specsKz','descriptionKz','categoryId','category','images','image','img','photo','photos','hidden','inStock','qty','createdAt','updatedAt','id','price','oldPrice','isNew','popular','featured','thumb']);
+function guessDesc(d){let best='';for(const k in d){if(KNOWN_F.has(k))continue;const v=d[k];if(typeof v==='string'&&v.length>best.length&&!/^data:/.test(v)&&!/^https?:\/\//.test(v))best=v}return best.length>=40?best:''}
+const descOf=d=>String(d.description||d.descriptionRu||d.desc||d.details||d.descr||guessDesc(d)||'');
+function norm(id,d){
+  const imgs=Array.isArray(d.images)?d.images.filter(Boolean):(d.images?[d.images]:[]);
+  const out=d.inStock===false||d.inStock==='false'||d.inStock===0;
+  return {id,slug:id,cat:String(d.categoryId||''),
+    name:{ru:d.titleRu||d.title||d.name||'',kk:d.titleKz||''},_f:Object.keys(d).map(k=>k+':'+(typeof d[k]==='string'?d[k].length:Array.isArray(d[k])?'['+d[k].length+']':typeof d[k])).join(', '),
+    price:Number(d.price)||0,old:Number(d.oldPrice)||0,
+    status:d.hidden?'hidden':(out?'out':'in'),
+    qty:Number(d.qty)||0,sku:d.sku||'',img:imgs[0]||'',images:imgs,
+    isNew:d.isNew?1:0,popular:d.popular?1:0,featured:d.featured?1:0,
+    desc:{ru:descOf(d),kk:String(d.descriptionKz||'')},
+    specs:{ru:String(d.specs||''),kk:String(d.specsKz||'')},
+    created:(d.createdAt&&d.createdAt.seconds)||0};
+}
+function normLite(id,d){
+  const th=d.thumb||'';
+  return {id,slug:id,lite:1,cat:String(d.categoryId||''),
+    name:{ru:d.titleRu||'',kk:d.titleKz||''},_f:'лёгкий каталог',
+    price:Number(d.price)||0,old:Number(d.oldPrice)||0,
+    status:d.hidden?'hidden':(d.inStock===false?'out':'in'),
+    qty:Number(d.qty)||0,sku:d.sku||'',img:th,images:th?[th]:[],
+    isNew:d.isNew?1:0,popular:d.popular?1:0,featured:d.featured?1:0,
+    desc:{ru:'',kk:''},specs:{ru:'',kk:''},hasDesc:!!d.dr,hasDescKz:!!d.dk,hasSp:!!d.sp,hasSpKz:!!d.spk,
+    created:(d.createdAt&&d.createdAt.seconds)||0};
+}
+const liteFrom=(p,thumb)=>({titleRu:p.name.ru,titleKz:p.name.kk||'',price:p.price,oldPrice:p.old||0,categoryId:p.cat,inStock:p.status!=='out',hidden:p.status==='hidden',qty:p.qty||0,sku:p.sku||'',isNew:!!p.isNew,popular:!!p.popular,featured:!!p.featured,dr:!!p.desc.ru,dk:!!p.desc.kk,sp:!!p.specs.ru,spk:!!p.specs.kk,thumb,updatedAt:serverTimestamp()});
+function makeThumb(src){
+  return new Promise(res=>{
+    if(!src)return res('');
+    const im=new Image();
+    im.onload=()=>{try{const m=480,k=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.max(1,Math.round(im.width*k));c.height=Math.max(1,Math.round(im.height*k));const g=c.getContext('2d');g.fillStyle='#fff';g.fillRect(0,0,c.width,c.height);g.drawImage(im,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',0.7))}catch(e){res('')}};
+    im.onerror=()=>res('');
+    im.src=src;
+  });
+}
+const FULLC={},FULLING={},FULLERR={};
+let LITE=false;
+async function getFull(id){
+  if(FULLC[id])return FULLC[id];
+  const p=DB.products.find(x=>x.id===id);if(p&&!p.lite)return p;
+  const sn=await getDoc(doc(fdb,'products',id));
+  if(!sn.exists())return p;
+  return FULLC[id]=norm(id,sn.data());
+}
+async function syncLite(id,p){
+  if(!LITE||!fdb)return;
+  const th=await makeThumb((p.images||[])[0]);
+  const rec=liteFrom(p,th);if(p._new)rec.createdAt=serverTimestamp();
+  await setDoc(doc(fdb,'catalog',id),rec,{merge:true});
+}
+function buildCats(){
+  const base=(FBCATS&&FBCATS.length)?FBCATS:BUILTIN_CATS.map(c=>({...c}));
+  const ids=new Set(base.map(c=>c.id));
+  DB.products.forEach(p=>{if(p.cat&&!ids.has(p.cat)){ids.add(p.cat);base.push({id:p.cat,main:0,name:{ru:p.cat,kk:''}})}});
+  return base;
+}
+/* кэш товаров в IndexedDB: повторное открытие сайта показывает всё мгновенно */
+const TTL=30*60*1000;
+function idb(){return new Promise((res,rej)=>{try{const r=indexedDB.open('ms-cache',1);r.onupgradeneeded=()=>r.result.createObjectStore('kv');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)}catch(e){rej(e)}})}
+async function cacheGet(){return Promise.race([cacheGet0(),new Promise(r=>setTimeout(()=>r(null),1500))])}
+async function cacheGet0(){try{const d=await idb();return await new Promise(res=>{try{const q=d.transaction('kv').objectStore('kv').get('data');q.onsuccess=()=>res(q.result||null);q.onerror=()=>res(null)}catch(e){res(null)}})}catch(e){return null}}
+async function cacheSet(v){try{const d=await idb();d.transaction('kv','readwrite').objectStore('kv').put(v,'data')}catch(e){}}
+const saveCache=()=>{if(DB.products.length)cacheSet({v:3,t:Date.now(),lite:LITE,products:DB.products.filter(p=>p.lite||!LITE),cats:FBCATS})};
+const dataSig=()=>JSON.stringify(DB.products.map(p=>[p.id,p.price,p.old,p.status,p.name.ru,p.name.kk,p.desc.ru.length,p.desc.kk.length,p.images.length,p.img.length,p.cat,p.isNew,p.popular,p.featured]))+JSON.stringify(FBCATS||'');
+let KEEP=false;
+async function loadData(){
+  if(!fdb){DB.loaded=true;return}
+  await pickDb();
+  try{
+    let snap=null,lite=false;
+    try{const cs=await getDocs(collection(fdb,'catalog'));if(cs.docs.some(x=>x.id==='_meta')){snap={docs:cs.docs.filter(x=>x.id!=='_meta')};lite=true}}catch(e){}
+    if(!snap)snap=await getDocs(collection(fdb,'products'));
+    LITE=lite;
+    DB.products=snap.docs.map(x=>lite?normLite(x.id,x.data()):norm(x.id,x.data())).sort((a,b)=>(b.created-a.created)||a.name.ru.localeCompare(b.name.ru));
+    LOAD_ERR='';
+  }catch(e){LOAD_ERR=String(e&&e.message||e)}
+  try{
+    const cs=await getDocs(collection(fdb,'categories'));
+    const arr=cs.docs.map((x,i)=>{const d=x.data();return {id:x.id,main:(d.main===undefined?i<8:!!d.main)?1:0,name:{ru:d.titleRu||d.nameRu||d.name||d.title||x.id,kk:d.titleKz||d.nameKz||''}}});
+    FBCATS=arr.length?arr:null;
+  }catch(e){FBCATS=null}
+  DB.cats=buildCats();
+  DB.loaded=true;
+  if(!LOAD_ERR)saveCache();
+}
+async function saveProductFB(p){
+  const data={titleRu:p.name.ru,titleKz:p.name.kk||'',price:p.price,oldPrice:p.old||0,categoryId:p.cat,
+    description:p.desc.ru,descriptionKz:p.desc.kk||'',images:p.images||[],inStock:p.status!=='out',hidden:p.status==='hidden',
+    qty:p.qty||0,sku:p.sku||'',specs:p.specs.ru,specsKz:p.specs.kk||'',isNew:!!p.isNew,popular:!!p.popular,featured:!!p.featured,
+    updatedAt:serverTimestamp()};
+  if(JSON.stringify(data).length>950000)throw new Error('Слишком большие фото: уберите одно или два.');
+  if(p._new){data.createdAt=serverTimestamp();const r=await addDoc(collection(fdb,'products'),data);return r.id}
+  await setDoc(doc(fdb,'products',p.id),data,{merge:true});return p.id;
+}
+const visible=()=>DB.products.filter(p=>p.status!=='hidden');
+const prod=slug=>DB.products.find(p=>p.slug===slug);
+const prodById=id=>DB.products.find(p=>p.id===id);
+const catName=id=>{const c=DB.cats.find(c=>c.id===id);return c?L(c.name):''};
+const specsRows=s=>String(s||'').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{const i=l.indexOf(':');return i>0?[l.slice(0,i).trim(),l.slice(i+1).trim()]:['',l]});
+const prodUrl=p=>location.href.split('#')[0]+'#/product/'+p.slug;
+
+/* ============ Cart ============ */
+let cart=LS.get('ms_cart',[]);
+function saveCart(){LS.set('ms_cart',cart);updateBadge()}
+function updateBadge(){
+  const n=cart.reduce((s,i)=>s+i.q,0),b=$('#cartcount');
+  b.textContent=n;b.style.display=n?'flex':'none';
+}
+function addToCart(id,q=1){
+  const p=prodById(id);if(!p||p.status!=='in')return;
+  const it=cart.find(i=>i.id===id);
+  if(it)it.q+=q;else cart.push({id,q});
+  saveCart();toast(t('added'));
+}
+const cartLines=()=>cart.map(i=>({p:prodById(i.id),q:i.q})).filter(x=>x.p&&x.p.status!=='hidden');
+
+/* ============ Shared view bits ============ */
+const imgBox=(p,cls='ph')=>`<span class="${cls}">${p.img?`<img src="${esc(p.img)}" alt="${esc(L(p.name))}" loading="lazy">`:`<span class="noimg">${esc((L(p.name)||'M').charAt(0).toUpperCase())}</span>`}${p.isNew&&cls==='ph'?`<span class="tag">${t('new_')}</span>`:''}${p.old>p.price&&cls==='ph'?`<span class="tag disc">−${Math.round((1-p.price/p.old)*100)}%</span>`:''}</span>`;
+const stockHtml=p=>p.status==='in'?`<div class="stock in">${t('in')}</div>`:`<div class="stock out">${t('out')}</div>`;
+const priceHtml=p=>`<div class="price">${money(p.price)}${p.old>p.price?`<span class="old">${money(p.old)}</span>`:''}</div>`;
+function card(p){
+  return `<article class="card">
+    <a href="#/product/${esc(p.slug)}" aria-label="${esc(L(p.name))}">${imgBox(p)}</a>
+    <div class="cb">
+      <a class="cn" href="#/product/${esc(p.slug)}">${esc(L(p.name))}</a>
+      ${priceHtml(p)}${stockHtml(p)}
+      <div class="row">
+        <a class="btn sm line" href="#/product/${esc(p.slug)}">${t('more')}</a>
+        <button class="btn sm" data-act="add" data-id="${esc(p.id)}" ${p.status!=='in'?'disabled':''}>${p.status==='in'?t('tocart'):t('out')}</button>
+      </div>
+    </div></article>`;
+}
+function searchBox(q=''){
+  return `<form class="search" data-form="search" role="search"><input type="search" id="q" name="q" value="${esc(q)}" placeholder="${t('search_ph')}" aria-label="${t('search_ph')}" autocomplete="off"><button type="submit">${t('find')}</button></form>`;
+}
+
+/* ============ Views ============ */
+const LOCK='<a class="lock" href="#/admin" aria-label="Вход для владельца"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></a>';
+function banner(){
+  if(!CONFIGURED)return `<div class="note" style="margin-top:20px">Магазин ещё не подключён к базе товаров (Firebase).</div>`;
+  if(LOAD_ERR)return `<div class="note" style="margin-top:20px">${t('err_load')}</div>`;
+  if(!DB.loaded)return `<div class="note" style="margin-top:20px">Загрузка товаров… (v6)</div>`;
+  if(DB.loaded&&!DB.products.length)return `<div class="note" style="margin-top:20px">Скоро здесь появятся товары.</div>`;
+  return '';
+}
+function viewHome(){
+  const main=DB.cats.filter(c=>c.main),rest=DB.cats.filter(c=>!c.main);
+  const vis=visible();
+  const pop=vis.filter(p=>p.popular).slice(0,8),neu=vis.filter(p=>p.isNew).slice(0,8),fea=vis.filter(p=>p.featured).slice(0,8);
+  const sec=(title,arr)=>arr.length?`<section><h2>${title}</h2><div class="grid">${arr.map(card).join('')}</div></section>`:'';
+  const tile=c=>`<a class="cat" href="#/catalog?cat=${esc(c.id)}"><span>${esc(L(c.name))}</span><small>${t('itemsn')} ${vis.filter(p=>p.cat===c.id).length}</small></a>`;
+  return `<div class="hero"><h1>MUSLIM SHOP</h1><p>${t('hero_sub')}</p>${searchBox()}
+    <div class="trust">${t('trust').map((x,i)=>`<div><b>${esc(x[0])}${i===0?LOCK:''}</b>${esc(x[1])}</div>`).join('')}</div></div>
+  ${banner()}
+  <section id="cats" style="padding-top:28px"><h2>${t('cats')}</h2>
+    <div class="cats">${main.map(tile).join('')}</div>
+    ${rest.length?`<div class="cats cats-extra" id="catsx">${rest.map(tile).join('')}</div>
+    <button class="btn block line" style="margin-top:12px" data-act="allcats" id="allcatsbtn">${t('allcats')}</button>`:''}
+  </section>
+  ${(pop.length||neu.length||fea.length)?sec(t('popular'),pop)+sec(t('news'),neu)+sec(t('featured'),fea):sec(t('all_items'),vis.slice(0,12))}
+  <section><a class="btn block" href="#/catalog">${t('all_items')} (${vis.length})</a></section>
+  <section id="about"><h2>${t('about')}</h2><div class="about">${t('about_txt')}</div></section>
+  <section id="social"><h2>${t('social')}</h2>${socials()}</section>
+  <section id="contacts"><h2>${t('contacts')}</h2>${contactBox()}</section>`;
+}
+function socials(){
+  return `<div class="socs">
+   <a class="soc" href="${CONTACT.ig}" target="_blank" rel="noopener"><small>Instagram</small><b>@musliim_shop06</b></a>
+   <a class="soc" href="${CONTACT.tt}" target="_blank" rel="noopener"><small>TikTok</small><b>@muslim_shop06</b></a>
+   <a class="soc" href="${CONTACT.tg}" target="_blank" rel="noopener"><small>Telegram</small><b>@muslim_shop06</b></a></div>`;
+}
+function contactBox(){
+  return `<div class="contacts"><div><b>MUSLIM SHOP</b></div><div>${lang==='kk'?'Атырау, Дина базары, 24-бутик':'Атырау, Рынок Дина, Бутик 24'}</div><div>${t('addr')}: ${esc(t('addr_txt'))}</div>
+   <div>${t('phone')}: <a href="tel:+77781754241">${CONTACT.phone}</a></div>
+   <div>Instagram: <a href="${CONTACT.ig}" target="_blank" rel="noopener">@musliim_shop06</a></div>
+   <div>TikTok: <a href="${CONTACT.tt}" target="_blank" rel="noopener">@muslim_shop06</a></div>
+   <div>Telegram: <a href="${CONTACT.tg}" target="_blank" rel="noopener">@muslim_shop06</a></div></div>`;
+}
+
+let CQ={};
+function viewCatalog(q){
+  CQ={cat:q.cat||'',q:q.q||'',sort:q.sort||'pop',min:q.min||'',max:q.max||'',stock:q.stock==='1',neu:q.neu==='1',pop:q.pop==='1'};
+  const chips=[`<a class="chip ${!CQ.cat?'on':''}" href="#/catalog">${t('all')}</a>`].concat(DB.cats.map(c=>`<a class="chip ${CQ.cat===c.id?'on':''}" href="#/catalog?cat=${esc(c.id)}">${esc(L(c.name))}</a>`)).join('');
+  return `<h1 style="margin-top:16px">${t('catalog')}</h1>
+  ${searchBox(CQ.q)}
+  <div class="chips" role="navigation" aria-label="${t('cats')}">${chips}</div>
+  <details class="filters-wrap" open><summary class="btn sm line" style="list-style:none;margin:8px 0">${t('filters')} / ${t('sort')}</summary>
+   <div class="filters" id="filters">
+    <div><label for="f-sort">${t('sort')}</label><select id="f-sort" data-f="sort">
+      <option value="pop">${t('s_pop')}</option><option value="asc">${t('s_asc')}</option><option value="desc">${t('s_desc')}</option><option value="new">${t('s_new')}</option></select></div>
+    <div class="two"><div><label for="f-min">${t('price_from')}</label><input type="number" inputmode="numeric" id="f-min" data-f="min" min="0" value="${esc(CQ.min)}"></div>
+      <div><label for="f-max">${t('price_to')}</label><input type="number" inputmode="numeric" id="f-max" data-f="max" min="0" value="${esc(CQ.max)}"></div></div>
+    <div class="checks">
+      <label><input type="checkbox" data-f="stock" ${CQ.stock?'checked':''}> ${t('only_in')}</label>
+      <label><input type="checkbox" data-f="neu" ${CQ.neu?'checked':''}> ${t('only_new')}</label>
+      <label><input type="checkbox" data-f="pop" ${CQ.pop?'checked':''}> ${t('only_pop')}</label></div>
+   </div></details>
+  <div id="count" style="font-weight:700;margin:6px 0 12px"></div>
+  <div id="plist"></div>`;
+}
+function updateCatalog(){
+  const s=$('#f-sort');if(s)s.value=CQ.sort;
+  let arr=visible();
+  if(CQ.cat)arr=arr.filter(p=>p.cat===CQ.cat);
+  if(CQ.q){const w=CQ.q.toLowerCase().split(/\s+/).filter(Boolean);arr=arr.filter(p=>{const h=((p.name.ru||'')+' '+(p.name.kk||'')+' '+(p.sku||'')).toLowerCase();return w.every(x=>h.includes(x))})}
+  if(CQ.min!=='')arr=arr.filter(p=>p.price>=Number(CQ.min));
+  if(CQ.max!=='')arr=arr.filter(p=>p.price<=Number(CQ.max));
+  if(CQ.stock)arr=arr.filter(p=>p.status==='in');
+  if(CQ.neu)arr=arr.filter(p=>p.isNew);
+  if(CQ.pop)arr=arr.filter(p=>p.popular);
+  const sorts={pop:(a,b)=>(b.popular|0)-(a.popular|0),asc:(a,b)=>a.price-b.price,desc:(a,b)=>b.price-a.price,new:(a,b)=>(b.isNew|0)-(a.isNew|0)};
+  arr=arr.slice().sort(sorts[CQ.sort]||sorts.pop);
+  $('#count').textContent=(CQ.cat?catName(CQ.cat)+' — ':'')+t('found')+' '+arr.length;
+  $('#plist').innerHTML=arr.length?`<div class="grid">${arr.map(card).join('')}</div>`:`<div class="empty">${t('nothing')}</div>`;
+}
+
+function viewProduct(slug){
+  const p0=prod(slug);
+  if(!p0||(p0.status==='hidden'&&!isAdmin()))return `<section><div class="empty">${t('notfound')}</div><p style="margin-top:14px"><a class="btn block" href="#/catalog">${t('back')}</a></p></section>`;
+  let p=p0;
+  if(p0.lite){
+    if(FULLC[p0.id])p=FULLC[p0.id];
+    else if(!FULLING[p0.id]&&!FULLERR[p0.id]&&fdb){FULLING[p0.id]=1;getFull(p0.id).then(()=>{delete FULLING[p0.id];KEEP=true;render()}).catch(e=>{delete FULLING[p0.id];FULLERR[p0.id]=String(e&&e.message||e);KEEP=true;render()})}
+  }
+  document.title=L(p.name)+' — MUSLIM SHOP';
+  CUR=p;
+  const rows=specsRows(p.specs&&(p.specs[lang]||p.specs.ru));
+  const desc=L(p.desc);
+  return `<div class="crumbs"><a href="#/">${t('home')}</a> / <a href="#/catalog?cat=${esc(p.cat)}">${esc(catName(p.cat))}</a></div>
+  <section class="pp">
+    <div>${imgBox(p)}${(p.images||[]).length>1?`<div class="thumbs">${p.images.map((x,i)=>`<button type="button" class="${i===0?'on':''}" data-act="gal" data-id="${i}" aria-label="${i+1}"><img src="${esc(x)}" alt=""></button>`).join('')}</div>`:''}</div>
+    <div style="display:grid;gap:14px">
+      <h1>${esc(L(p.name))}</h1>
+      ${priceHtml(p)}${stockHtml(p)}
+      ${p.status==='hidden'?`<div class="note">Товар скрыт: его видите только вы как владелец.</div>`:''}
+      ${p.sku?`<div class="sku">${t('sku')}: ${esc(p.sku)}</div>`:''}
+      <div><label style="font-weight:700;display:block;margin-bottom:6px">${t('qty')}</label>
+        <div class="qty"><button data-act="q-" aria-label="−">−</button><span id="qv">1</span><button data-act="q+" aria-label="+">+</button></div></div>
+      <div class="actions">
+        <button class="btn" data-act="padd" data-id="${esc(p.id)}" ${p.status!=='in'?'disabled':''}>${t('tocart')}</button>
+        <button class="btn gold" data-act="pbuy" data-id="${esc(p.id)}" ${p.status!=='in'?'disabled':''}>${t('order')}</button>
+        <button class="btn line" data-act="share" data-id="${esc(p.id)}">${t('share')}</button>
+        <button class="btn line" data-act="copy" data-id="${esc(p.id)}">${t('copy')}</button>
+      </div>
+    </div>
+  </section>
+  ${desc?`<section style="padding-top:0"><h2>${t('desc')}</h2><div class="desc">${esc(desc)}</div></section>`:(p.lite&&(p.hasDesc||p.hasSp)?`<section style="padding-top:0"><div class="note">${FULLERR[p.id]?'Не удалось загрузить описание: '+esc(FULLERR[p.id]):'Загрузка описания…'}</div></section>`:'')}
+  ${rows.length?`<section style="padding-top:0"><h2>${t('specs')}</h2><table class="specs">${rows.map(r=>`<tr>${r[0]?`<td>${esc(r[0])}</td><td>${esc(r[1])}</td>`:`<td colspan="2">${esc(r[1])}</td>`}</tr>`).join('')}</table></section>`:''}
+  <div class="spacer"></div>
+  <div class="sticky-buy"><div>${priceHtml(p)}</div><button class="btn gold" data-act="padd" data-id="${esc(p.id)}" ${p.status!=='in'?'disabled':''}>${p.status==='in'?t('tocart'):t('out')}</button></div>`;
+}
+
+function viewCart(){
+  const lines=cartLines();
+  if(!lines.length)return `<h1 style="margin-top:16px">${t('cart')}</h1><div class="empty">${t('cart_empty')}<p style="margin-top:14px"><a class="btn" href="#/catalog">${t('catalog')}</a></p></div>`;
+  const total=lines.reduce((s,l)=>s+l.p.price*l.q,0);
+  return `<h1 style="margin-top:16px">${t('cart')}</h1>
+  ${lines.map(({p,q})=>`<div class="line-item">
+    <a href="#/product/${esc(p.slug)}">${imgBox(p,'ph')}</a>
+    <div class="li-b"><a class="cn" style="min-height:0" href="#/product/${esc(p.slug)}">${esc(L(p.name))}</a>
+      <div class="li-r"><div class="price" style="font-size:22px">${money(p.price)}</div>
+        <div class="mini"><button data-act="dec" data-id="${esc(p.id)}" aria-label="−">−</button><span>${q}</span><button data-act="inc" data-id="${esc(p.id)}" aria-label="+">+</button></div></div>
+      <div class="li-r"><b>${money(p.price*q)}</b><button class="btn sm line" data-act="del" data-id="${esc(p.id)}">${t('remove')}</button></div>
+    </div></div>`).join('')}
+  <div class="total"><span>${t('total')}</span><b>${money(total)}</b></div>
+  <h2>${t('checkout')}</h2>
+  <form class="form" data-form="order">
+    <div><label for="o-name">${t('name')}</label><input id="o-name" name="name" autocomplete="name" required></div>
+    <div><label for="o-tel">${t('tel')}</label><input id="o-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7" required></div>
+    <div><label for="o-c">${t('comment')}</label><textarea id="o-c" name="c"></textarea></div>
+    <button class="btn gold block" type="submit">${t('send_wa')}</button>
+    <div class="note">${t('checkout_note')}</div>
+  </form>`;
+}
+
+/* ============ Admin ============ */
+let editing=null,CUR=null;const SEL=new Set();
+const isDemo=p=>/Демонстрационное описание/i.test(p.desc.ru||'')||/^MS-00\d$/.test(p.sku||'');
+/* ---- восстановление из резервной копии (JSON) ---- */
+let BK=null;
+function bkItems(v){
+  const one=(x,k)=>{if(!x||typeof x!=='object'||Array.isArray(x))return null;const d=(x.data&&typeof x.data==='object'&&!Array.isArray(x.data))?x.data:x;const id=String(k!=null?k:(x.id||x.docId||x.__id||x._id||d.id||''));return {id,data:d}};
+  if(Array.isArray(v))return v.map(x=>one(x,null)).filter(Boolean);
+  if(v&&typeof v==='object')return Object.keys(v).map(k=>one(v[k],k)).filter(Boolean);
+  return [];
+}
+function bkFind(o,name){
+  if(!o||typeof o!=='object')return null;
+  if(o[name])return o[name];
+  for(const k of ['collections','data','db','firestore','database']){if(o[k]&&typeof o[k]==='object'&&o[k][name])return o[k][name]}
+  return null;
+}
+function bkParse(text){
+  const o=JSON.parse(text);
+  const prods=bkItems(Array.isArray(o)?o:bkFind(o,'products'));
+  const cats=bkItems(Array.isArray(o)?null:bkFind(o,'categories'));
+  return {prods,cats};
+}
+function bkTs(v){
+  if(v==null)return null;
+  if(typeof v==='object'){const s=v.seconds!=null?v.seconds:v._seconds;if(s!=null)return Timestamp.fromMillis(Number(s)*1000)}
+  if(typeof v==='number')return Timestamp.fromMillis(v>1e12?v:v*1000);
+  if(typeof v==='string'){const d=new Date(v);if(!isNaN(d))return Timestamp.fromDate(d)}
+  return null;
+}
+async function bkLoad(file){
+  const box=$('#bkinfo'),btn=$('#bkrun');if(!box)return;
+  BK=null;if(btn)btn.disabled=true;
+  if(!file){box.textContent='';return}
+  box.textContent='Читаю файл…';
+  try{
+    BK=bkParse(await file.text());
+    const named=BK.prods.filter(x=>x.data.titleRu||x.data.title);
+    const withImg=BK.prods.filter(x=>Array.isArray(x.data.images)&&x.data.images.length).length;
+    const noId=BK.prods.filter(x=>!x.id).length;
+    const withDesc=BK.prods.filter(x=>descOf(x.data)).length;
+    const f0=BK.prods[0]?Object.keys(BK.prods[0].data).join(', '):'';
+    box.innerHTML='Найдено: товаров <b>'+BK.prods.length+'</b> (с названием: '+named.length+', с фото: '+withImg+', <b>с описанием: '+withDesc+'</b>), категорий <b>'+BK.cats.length+'</b>.<br>Поля в копии: '+esc(f0)+'.'+(noId?'<br>Без id: '+noId+' (будут созданы как новые).':'')+(named[0]?'<br>Пример: '+esc(String(named[0].data.titleRu||named[0].data.title)):'');
+    if(btn)btn.disabled=!(BK.prods.length||BK.cats.length);
+    const b2=$('#bkdesc');if(b2)b2.disabled=!withDesc;
+  }catch(e){box.textContent='Не удалось прочитать файл: '+(e&&e.message||e)}
+}
+async function bkDesc(){
+  if(!BK||!BK.prods.length){toast('Сначала выберите файл');return}
+  if(!fdb)return;
+  const todo=BK.prods.filter(x=>x.id&&prodById(x.id)&&descOf(x.data));
+  const skip=BK.prods.length-todo.length;
+  if(!todo.length){toast('Нет совпадающих товаров с описанием');return}
+  if(!confirm('Восстановить описания (и характеристики) для '+todo.length+' товаров?\nФото, цены и названия не меняются. Пропущено: '+skip+'.'))return;
+  let ok=0,bad=0,last='';
+  for(const x of todo){
+    try{
+      const d=x.data,patch={description:descOf(d),updatedAt:serverTimestamp()};
+      if(d.descriptionKz)patch.descriptionKz=String(d.descriptionKz);
+      if(d.specs)patch.specs=String(d.specs);
+      if(d.specsKz)patch.specsKz=String(d.specsKz);
+      await setDoc(doc(fdb,'products',x.id),patch,{merge:true});
+      if(LITE){const lp={dr:true,updatedAt:serverTimestamp()};if(patch.descriptionKz)lp.dk=true;if(patch.specs)lp.sp=true;if(patch.specsKz)lp.spk=true;await setDoc(doc(fdb,'catalog',x.id),lp,{merge:true})}
+      delete FULLC[x.id];delete FULLERR[x.id];
+      const lp2=prodById(x.id);if(lp2){if(lp2.lite){lp2.hasDesc=true}else{lp2.desc.ru=patch.description;if(patch.specs)lp2.specs.ru=patch.specs}}
+      ok++;
+    }catch(e){bad++;last=String(e&&e.message||e)}
+    if((ok+bad)%10===0)toast('Описания: '+(ok+bad)+' из '+todo.length);
+  }
+  saveCache();render();
+  toast(bad?('Записано '+ok+', ошибок '+bad+': '+last):('Описания восстановлены: '+ok));
+}
+async function diagRun(){
+  const box=$('#diag');if(!box)return;box.textContent='Читаю…';
+  const ids=DB.products.slice(0,2).map(p=>p.id);let out='';
+  for(const id of ids){
+    const sn=await getDoc(doc(fdb,'products',id));
+    if(!sn.exists()){out+=id+': нет документа\n';continue}
+    const d=sn.data();
+    out+='ID '+id+'\n'+Object.keys(d).map(k=>{const v=d[k];return k+': '+(typeof v==='string'?(/^data:/.test(v)?'[фото]':'«'+v.slice(0,40).replace(/\n/g,' ')+'…» ('+v.length+')'):Array.isArray(v)?'['+v.length+' шт.]':typeof v==='object'&&v?'{…}':String(v))}).join('\n')+'\n\n';
+  }
+  box.textContent=out;
+}
+async function bkRun(){
+  if(!BK||!(BK.prods.length||BK.cats.length)){toast('Сначала выберите файл');return}
+  if(!fdb){toast('Firebase не подключён');return}
+  if(!confirm('Записать в базу «'+DBNAME+'»:\nтоваров: '+BK.prods.length+', категорий: '+BK.cats.length+'.\n\nТовары с такими же id будут обновлены, остальное не тронется. Ничего не удаляется.'))return;
+  const total=BK.prods.length+BK.cats.length;let ok=0,bad=0,lastErr='';
+  const put=async(col,it)=>{
+    try{
+      const d={...it.data};delete d.id;
+      for(const k of ['createdAt','updatedAt']){if(k in d){const t=bkTs(d[k]);if(t)d[k]=t;else delete d[k]}}
+      const ref=it.id?doc(fdb,col,it.id):doc(collection(fdb,col));
+      await setDoc(ref,d,{merge:true});ok++;
+      if(col==='products'){const n=norm(ref.id,d),i=DB.products.findIndex(x=>x.id===ref.id);if(i>=0)DB.products[i]=n;else DB.products.push(n)}
+    }catch(e){bad++;lastErr=String(e&&e.message||e)}
+    if((ok+bad)%10===0)toast('Записано '+ok+' из '+total);
+  };
+  for(const it of BK.prods)await put('products',it);
+  for(const it of BK.cats)await put('categories',it);
+  BK=null;saveCache();
+  render();
+  toast(bad?('Записано '+ok+', ошибок '+bad+': '+lastErr):('Готово. Записано: '+ok+(LITE?'. Нажмите «Обновить лёгкий каталог»':'')));
+}
+document.body.insertAdjacentHTML('beforeend','<div id="ver">v6</div>');
+document.addEventListener('change',e=>{if(e.target&&e.target.id==='bkfile')bkLoad(e.target.files&&e.target.files[0])});
+async function buildLite(){
+  if(!fdb)return;
+  if(!confirm('Создать лёгкий каталог?\n\nСайт один раз прочитает все товары (много данных, лучше на Wi-Fi) и запишет уменьшенные копии в коллекцию catalog. Ваши товары не изменятся.'))return;
+  toast('Читаю товары…');
+  const snap=await getDocs(collection(fdb,'products'));
+  const total=snap.docs.length;let n=0,bad=0,last='';
+  for(const x of snap.docs){
+    try{
+      const d=x.data(),f=norm(x.id,d),th=await makeThumb(f.images[0]);
+      const rec=liteFrom(f,th);if(d.createdAt&&d.createdAt.seconds)rec.createdAt=d.createdAt;
+      await setDoc(doc(fdb,'catalog',x.id),rec);n++;
+    }catch(e){bad++;last=String(e&&e.message||e)}
+    if((n+bad)%10===0)toast('Готово '+(n+bad)+' из '+total);
+  }
+  if(bad){toast('Ошибок: '+bad+'. '+last);return}
+  await setDoc(doc(fdb,'catalog','_meta'),{done:true,count:n,updatedAt:serverTimestamp()});
+  await loadData();saveCache();render();toast('Лёгкий каталог готов: '+n);
+}
+let TR_OUT='';
+const needTr=()=>DB.products.filter(p=>!p.name.kk||(p.lite?((p.hasDesc&&!p.hasDescKz)||(p.hasSp&&!p.hasSpKz)):((p.desc.ru&&!p.desc.kk)||(p.specs.ru&&!p.specs.kk))));
+async function trSave(){
+  const raw=(($('#trin')||{}).value||'').trim().replace(/^```(?:json)?\s*|\s*```$/g,'');
+  let arr;try{arr=JSON.parse(raw)}catch(e){toast('Не удалось прочитать перевод');return}
+  arr=(Array.isArray(arr)?arr:[]).filter(x=>x&&prodById(x.id));
+  if(!arr.length){toast('Нет подходящих товаров');return}
+  if(!confirm('Записать казахский перевод для '+arr.length+' товаров? Русский текст не изменится.'))return;
+  for(const x of arr){
+    const data={updatedAt:serverTimestamp()};
+    if(x.t)data.titleKz=String(x.t);if(x.d)data.descriptionKz=String(x.d);if(x.s)data.specsKz=String(x.s);
+    await setDoc(doc(fdb,'products',x.id),data,{merge:true});
+    if(LITE){const lp={updatedAt:serverTimestamp()};if(x.t)lp.titleKz=String(x.t);if(x.d)lp.dk=true;if(x.s)lp.spk=true;await setDoc(doc(fdb,'catalog',x.id),lp,{merge:true})}
+    delete FULLC[x.id];
+    const p=prodById(x.id);if(x.t)p.name.kk=String(x.t);if(x.d){p.desc.kk=String(x.d);p.hasDescKz=true}if(x.s){p.specs.kk=String(x.s);p.hasSpKz=true}
+  }
+  TR_OUT='';saveCache();render();toast('Записано: '+arr.length);
+}
+const selLabel=()=>'Удалить отмеченные ('+SEL.size+')';
+function viewAdmin(){
+  if(!CONFIGURED)return `<h1 style="margin-top:16px">Управление магазином</h1><div class="note">Firebase ещё не подключён. Откройте index.html и вставьте apiKey и appId в блок FIREBASE_CONFIG в начале скрипта.</div>`;
+  if(!isAdmin())return `<h1 style="margin-top:16px">Управление магазином</h1>
+    <form class="form" data-form="login">
+      <div><label for="pn">PIN</label><input id="pn" name="pn" type="password" inputmode="numeric" autocomplete="current-password" required></div>
+      <button class="btn gold block" type="submit">Войти</button>
+    </form>`;
+  return `<h1 style="margin-top:16px">Управление магазином</h1>
+  <div class="note" style="margin-bottom:14px">Вы вошли как <b>${esc(authUser.email||'')}</b>. Всё, что вы сохраняете здесь, сразу записывается в Firebase и видно покупателям. База: <b>${esc(DBNAME)}</b></div>
+  <div class="tabs"><button class="btn sm line" data-act="alogout">Выйти</button></div>
+  ${editing?adminForm(editing):adminList()}`;
+}
+function adminList(){
+  return `<button class="btn gold block" data-act="anew" style="margin-bottom:12px">+ ДОБАВИТЬ ТОВАР</button>
+  <div class="two" style="margin-bottom:12px"><button class="btn sm line" data-act="asel-demo">Отметить демо-товары</button><button class="btn sm line" data-act="asel-none">Снять все отметки</button></div>
+  <button class="btn sm block" id="delsel" data-act="adel-sel" style="margin-bottom:14px">${selLabel()}</button>
+  <div class="note" style="margin-bottom:14px"><b>Быстрая загрузка (лёгкий каталог)</b><br>Состояние: ${LITE?'включён, товаров: '+DB.products.length:'не создан, сайт грузит полные карточки (медленно)'}<br><button class="btn sm gold block" data-act="lite-build" style="margin-top:8px">${LITE?'Обновить лёгкий каталог':'Создать лёгкий каталог'}</button></div>
+  <details class="note" style="margin-bottom:14px"><summary><b>Диагностика полей товаров</b></summary><button class="btn sm line" data-act="diag" style="margin:8px 0">Показать поля 2 товаров</button><pre id="diag" style="white-space:pre-wrap;font-size:15px"></pre></details>
+  <div class="note" style="margin-bottom:14px"><b>Восстановить из резервной копии</b><br>Выберите файл .json. Сначала покажу, что в нём найдено, потом спрошу подтверждение.<br><input type="file" id="bkfile" accept=".json,application/json" style="margin:8px 0"><div id="bkinfo"></div><button class="btn sm gold block" id="bkrun" data-act="bk-run" disabled style="margin-top:8px">Восстановить всё (товары и категории)</button><button class="btn sm line block" id="bkdesc" data-act="bk-desc" disabled style="margin-top:8px">Восстановить только описания</button></div>
+  <div class="note" style="margin-bottom:14px"><b>Перевод на казахский</b><br>Без перевода: <b>${needTr().length}</b> из ${DB.products.length}<br><button class="btn sm line" data-act="atr-copy" style="margin:8px 0">Подготовить 15 товаров</button><textarea id="trout" readonly rows="3" style="width:100%">${esc(TR_OUT)}</textarea><textarea id="trin" rows="3" placeholder="Вставьте сюда готовый перевод" style="width:100%;margin-top:8px"></textarea><button class="btn sm gold block" data-act="atr-save" style="margin-top:8px">Записать перевод</button></div>
+  ${LOAD_ERR?`<div class="note" style="margin-bottom:12px">Не удалось прочитать товары: ${esc(LOAD_ERR)}</div>`:''}
+  ${DB.products.map(p=>`<div class="adm-row">${imgBox(p,'ph')}
+    <div><label class="checks" style="display:flex;min-height:36px"><input type="checkbox" data-sel="${esc(p.id)}" ${SEL.has(p.id)?'checked':''} style="width:24px;height:24px"> <b>${esc(L(p.name))}</b></label>${p.status==='hidden'?'<span class="hidden-badge">скрыт</span>':''}${isDemo(p)?'<span class="hidden-badge">демо</span>':''}<br>${money(p.price)} · ${p.status==='out'?'нет в наличии':p.status==='hidden'?'скрыт':'в наличии'} · ${esc(catName(p.cat))}</div>
+    <div class="adm-btns">
+      <button class="btn sm line" data-act="aedit" data-id="${esc(p.id)}">Редактировать</button>
+      <button class="btn sm line" data-act="ahide" data-id="${esc(p.id)}">${p.status==='hidden'?'Показать':'Скрыть'}</button>
+      <button class="btn sm line" data-act="adel" data-id="${esc(p.id)}">Удалить</button>
+      <a class="btn sm line" href="#/product/${esc(p.id)}">Открыть</a></div></div>`).join('')||'<div class="empty">Товаров пока нет. Нажмите «Добавить товар».</div>'}`;
+}
+const imgsHtml=p=>(p.images||[]).map((s,i)=>`<div class="ie"><img src="${esc(s)}" alt=""><button type="button" class="btn sm line" data-act="rmimg" data-id="${i}">Убрать</button></div>`).join('');
+function refreshImgs(){const b=$('#imgs');if(b)b.innerHTML=imgsHtml(editing)}
+function adminForm(p){
+  const o=(v,l,sel)=>`<option value="${esc(v)}" ${sel?'selected':''}>${l}</option>`;
+  return `<form class="form" data-form="product">
+   <h2>${p._new?'Новый товар':'Редактирование'}</h2>
+   <div><label>Фотографии (до 4)</label><div id="imgs">${imgsHtml(p)}</div>
+     <input type="file" id="pfile" accept="image/*" multiple></div>
+   <div><label for="f-nr">Название (RU)</label><input id="f-nr" name="nr" value="${esc(p.name.ru||'')}" required></div>
+   <div><label for="f-nk">Название (KZ), по желанию</label><input id="f-nk" name="nk" value="${esc(p.name.kk||'')}"></div>
+   <div><label for="f-cat">Категория</label><select id="f-cat" name="cat">${DB.cats.map(c=>o(c.id,esc(L(c.name)),c.id===p.cat)).join('')}</select></div>
+   <div class="two"><div><label for="f-pr">Цена, ₸</label><input id="f-pr" name="price" type="number" inputmode="numeric" min="0" value="${p.price||''}" required></div>
+     <div><label for="f-old">Старая цена, ₸</label><input id="f-old" name="old" type="number" inputmode="numeric" min="0" value="${p.old||''}"></div></div>
+   <div class="two"><div><label for="f-st">Наличие</label><select id="f-st" name="status">${o('in','В наличии',p.status==='in')}${o('out','Нет в наличии',p.status==='out')}${o('hidden','Скрыт',p.status==='hidden')}</select></div>
+     <div><label for="f-q">Количество</label><input id="f-q" name="qty" type="number" inputmode="numeric" min="0" value="${p.qty||''}"></div></div>
+   <div><label for="f-sku">Артикул</label><input id="f-sku" name="sku" value="${esc(p.sku||'')}"></div>
+   <div><label for="f-dr">Описание (RU)</label><textarea id="f-dr" name="dr">${esc(p.desc.ru||'')}</textarea></div>
+   <div><label for="f-dk">Описание (KZ), по желанию</label><textarea id="f-dk" name="dk">${esc(p.desc.kk||'')}</textarea></div>
+   <div><label for="f-sr">Характеристики (RU): по строке, «Название: значение»</label><textarea id="f-sr" name="sr">${esc(p.specs.ru||'')}</textarea></div>
+   <div><label for="f-sk">Характеристики (KZ), по желанию</label><textarea id="f-sk" name="sk">${esc(p.specs.kk||'')}</textarea></div>
+   <div class="checks"><label><input type="checkbox" name="isNew" ${p.isNew?'checked':''}> Новинка</label><label><input type="checkbox" name="popular" ${p.popular?'checked':''}> Популярный</label><label><input type="checkbox" name="featured" ${p.featured?'checked':''}> Рекомендуемый</label></div>
+   <button class="btn gold block" type="submit">СОХРАНИТЬ</button>
+   <button class="btn line block" type="button" data-act="acancel">Отмена</button>
+  </form>`;
+}
+function blankProduct(){return {_new:1,id:'',slug:'',cat:DB.cats[0]?DB.cats[0].id:'',name:{ru:'',kk:''},price:0,old:0,status:'in',qty:1,sku:'',img:'',images:[],isNew:0,popular:0,featured:0,desc:{ru:'',kk:''},specs:{ru:'',kk:''}}}
+function compress(file,cb){
+  const fr=new FileReader();
+  fr.onload=()=>{const im=new Image();im.onload=()=>{const m=800,s=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.75))};im.onerror=()=>cb(null);im.src=fr.result};
+  fr.readAsDataURL(file);
+}
+async function setHidden(id){
+  const p=prodById(id);if(!p||!fdb)return;
+  const hide=p.status!=='hidden';
+  await setDoc(doc(fdb,'products',id),{hidden:hide,updatedAt:serverTimestamp()},{merge:true});
+  if(LITE)await setDoc(doc(fdb,'catalog',id),{hidden:hide,updatedAt:serverTimestamp()},{merge:true});
+  delete FULLC[id];
+  await loadData();render();toast(hide?'Товар скрыт':'Товар снова виден');
+}
+async function removeSelected(){
+  const ids=[...SEL].filter(id=>prodById(id));
+  if(!ids.length){toast('Ничего не отмечено');return}
+  const names=ids.map(id=>'• '+L(prodById(id).name)).join('\n');
+  if(!confirm('Удалить из Firebase навсегда ('+ids.length+' шт.)?\n\n'+names+'\n\nЭто нельзя отменить.'))return;
+  for(const id of ids){await deleteDoc(doc(fdb,'products',id));if(LITE)await deleteDoc(doc(fdb,'catalog',id));delete FULLC[id]}
+  SEL.clear();await loadData();render();toast('Удалено: '+ids.length);
+}
+async function removeProduct(id){
+  const p=prodById(id);if(!p||!fdb)return;
+  if(!confirm('Удалить «'+L(p.name)+'» из Firebase навсегда? Это нельзя отменить.'))return;
+  await deleteDoc(doc(fdb,'products',id));
+  if(LITE)await deleteDoc(doc(fdb,'catalog',id));
+  delete FULLC[id];
+  await loadData();render();toast('Товар удалён');
+}
+/* ============ Router ============ */
+let ROUTE=null;
+function parse(){
+  const h=(ROUTE!==null?ROUTE:location.hash.replace(/^#/,''))||'/';
+  const [path,qs]=h.split('?');
+  const q={};(qs||'').split('&').filter(Boolean).forEach(kv=>{const[i,v]=kv.split('=');q[decodeURIComponent(i)]=decodeURIComponent(v||'')});
+  return {path,q};
+}
+function render(){
+  const {path,q}=parse();const app=$('#app');
+  document.title='MUSLIM SHOP — Атырау';
+  let html='',after=null;
+  const keep=KEEP;KEEP=false;
+  if(!DB.loaded&&(path==='/catalog'||path.startsWith('/product/')||path==='/cart'))html='<div class="note" style="margin-top:20px">Загрузка…</div>';
+  else if(path==='/'||path==='')html=viewHome();
+  else if(path==='/catalog'){html=viewCatalog(q);after=updateCatalog}
+  else if(path.startsWith('/product/'))html=viewProduct(decodeURIComponent(path.slice(9)));
+  else if(path==='/cart')html=viewCart();
+  else if(path==='/admin')html=viewAdmin();
+  else html=viewHome();
+  app.innerHTML=html;if(after)after();
+  renderChrome();
+  if(!keep&&!(path==='/admin'&&editing))window.scrollTo(0,0);
+}
+function renderChrome(){
+  document.documentElement.lang=lang==='kk'?'kk':'ru';
+  document.querySelectorAll('.langsw button').forEach(b=>b.classList.toggle('on',b.dataset.id===lang));
+  $('.m-t').textContent=t('menu');
+  $('#drawernav').innerHTML=`<div class="dh">${t('menu_nav')}</div>
+    <a href="#/" data-act="closemenu">${t('home')}</a><a href="#/catalog" data-act="closemenu">${t('catalog')}</a><a href="#/cart" data-act="closemenu">${t('cart')}</a>
+    <div class="dh" style="margin-top:10px">${t('cats')}</div>
+    ${DB.cats.map(c=>`<a href="#/catalog?cat=${esc(c.id)}" data-act="closemenu">${esc(L(c.name))}</a>`).join('')}
+    <div class="dh" style="margin-top:10px"> </div><a href="#/contacts-go" data-act="goto" data-id="contacts">${t('contacts')}</a>`;
+  $('#foot').innerHTML=`<footer><div class="wrap fg">
+    <div><h3>MUSLIM SHOP</h3><div>АТЫРАУ • РЫНОК ДИНА • БУТИК 24${LOCK}</div><div style="margin-top:6px">${esc(t('addr_txt'))}</div><div style="margin-top:6px"><a href="tel:+77781754241">${CONTACT.phone}</a></div></div>
+    <div><h3>${t('menu_nav')}</h3><a href="#/">${t('home')}</a><a href="#/catalog">${t('catalog')}</a><a href="#/cart">${t('cart')}</a></div>
+    <div><h3>${t('social')}</h3><a href="${CONTACT.ig}" target="_blank" rel="noopener">Instagram @musliim_shop06</a><a href="${CONTACT.tt}" target="_blank" rel="noopener">TikTok @muslim_shop06</a><a href="${CONTACT.tg}" target="_blank" rel="noopener">Telegram @muslim_shop06</a></div>
+    </div><div class="wrap copy">© MUSLIM SHOP, Атырау · v6 </div></footer>`;
+  updateBadge();
+}
+window.addEventListener('hashchange',()=>{ROUTE=null;closeMenu();render()});
+/* внутренние ссылки обрабатываем сами: в окнах предпросмотра (iframe) обычный переход по #-ссылке ломает страницу */
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href^="#/"]');
+  if(!a||a.dataset.act==='goto'||e.defaultPrevented)return;
+  e.preventDefault();closeMenu();
+  const h=a.getAttribute('href');ROUTE=h.slice(1);
+  try{history.pushState(null,'',h)}catch(x){try{location.hash=h}catch(y){}}
+  render();
+});
+
+/* ============ Events ============ */
+function closeMenu(){$('#drawer').classList.remove('open')}
+let pq=1;
+function shareProduct(p){
+  const url=prodUrl(p);
+  if(navigator.share){navigator.share({title:L(p.name)+' — MUSLIM SHOP',text:L(p.name)+' · '+money(p.price),url}).catch(()=>{})}
+  else copyText(url);
+}
+function copyText(s){
+  const ok=()=>toast(t('copied'));
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(s).then(ok,()=>fb())}else fb();
+  function fb(){const a=document.createElement('textarea');a.value=s;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok()}catch(e){prompt('',s)}a.remove()}
+}
+function download(name,text){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'application/json'}));a.download=name;document.body.appendChild(a);a.click();a.remove()}
+
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-act]');if(!b)return;
+  const a=b.dataset.act,id=b.dataset.id;
+  switch(a){
+    case 'menu':$('#drawer').classList.add('open');break;
+    case 'closemenu':closeMenu();break;
+    case 'goto':e.preventDefault();closeMenu();if(location.hash!=='#/'&&location.hash!==''){location.hash='#/';setTimeout(()=>{const el=document.getElementById(id);el&&el.scrollIntoView()},60)}else{const el=document.getElementById(id);el&&el.scrollIntoView()}break;
+    case 'lang':lang=id;LS.set('ms_lang',lang);render();break;
+    case 'allcats':{const x=$('#catsx');x.classList.toggle('open');b.textContent=x.classList.contains('open')?t('hidecats'):t('allcats');break}
+    case 'add':addToCart(id,1);break;
+    case 'q+':pq=Math.min(99,pq+1);$('#qv').textContent=pq;break;
+    case 'q-':pq=Math.max(1,pq-1);$('#qv').textContent=pq;break;
+    case 'padd':addToCart(id,pq);break;
+    case 'pbuy':addToCart(id,pq);location.hash='#/cart';break;
+    case 'share':shareProduct(prodById(id));break;
+    case 'copy':copyText(prodUrl(prodById(id)));break;
+    case 'inc':{const i=cart.find(x=>x.id===id);if(i){i.q=Math.min(99,i.q+1);saveCart();render()}break}
+    case 'dec':{const i=cart.find(x=>x.id===id);if(i){i.q=Math.max(1,i.q-1);saveCart();render()}break}
+    case 'del':cart=cart.filter(x=>x.id!==id);saveCart();render();break;
+    /* admin */
+    case 'atr-copy':{toast('Готовлю…');(async()=>{const list=needTr().slice(0,15);const fulls=await Promise.all(list.map(p=>getFull(p.id)));const b=fulls.filter(Boolean).map(p=>({id:p.id,t:p.name.ru,d:p.desc.ru,s:p.specs.ru}));TR_OUT=b.length?JSON.stringify(b):'';render();if(!b.length){toast('Всё переведено')}else if(navigator.clipboard){navigator.clipboard.writeText(TR_OUT).then(()=>toast('Скопировано. Отправьте это Claude'),()=>toast('Скопируйте текст из поля вручную'))}else toast('Скопируйте текст из поля вручную')})().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break}
+    case 'bk-desc':bkDesc().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'diag':diagRun().catch(err=>{const b=$('#diag');if(b)b.textContent='Ошибка: '+(err&&err.message||err)});break;
+    case 'bk-run':bkRun().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'lite-build':buildLite().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'atr-save':trSave().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'alogout':signOut(fauth).then(()=>{editing=null;render()});break;
+    case 'anew':editing=blankProduct();render();break;
+    case 'aedit':{toast('Открываю…');getFull(id).then(p=>{editing=JSON.parse(JSON.stringify(p));render()}).catch(err=>toast('Ошибка: '+(err&&err.message||err)));break}
+    case 'acancel':editing=null;render();break;
+    case 'ahide':setHidden(id).catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'asel-demo':DB.products.filter(isDemo).forEach(p=>SEL.add(p.id));render();toast('Отмечено демо-товаров: '+DB.products.filter(isDemo).length);break;
+    case 'asel-none':SEL.clear();render();break;
+    case 'adel-sel':removeSelected().catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'adel':removeProduct(id).catch(err=>toast('Ошибка: '+(err&&err.message||err)));break;
+    case 'rmimg':editing.images.splice(Number(id),1);editing.img=editing.images[0]||'';refreshImgs();break;
+    case 'gal':{const k=Number(id),im=$('.pp .ph img');if(im&&CUR&&CUR.images[k]){im.src=CUR.images[k];document.querySelectorAll('.thumbs button').forEach((x,n)=>x.classList.toggle('on',n===k))}break}
+  }
+});
+
+/* search + order + admin forms */
+/* кнопки форм обрабатываем по нажатию: в окнах предпросмотра браузер блокирует отправку форм */
+document.addEventListener('submit',e=>{const f=e.target.closest('form[data-form]');if(!f)return;e.preventDefault();handleForm(f)});
+document.addEventListener('click',e=>{
+  const sb=e.target.closest('button[type=submit]');if(!sb)return;
+  const f=sb.closest('form[data-form]');if(!f)return;
+  e.preventDefault();
+  if(f.reportValidity&&!f.reportValidity())return;
+  handleForm(f);
+});
+let busy=false;
+async function handleForm(f){
+  if(busy)return;busy=true;
+  try{await handleForm2(f)}catch(err){toast('Ошибка: '+(err&&err.message||err))}finally{busy=false}
+}
+async function handleForm2(f){
+  const kind=f.dataset.form,fd=new FormData(f);
+  if(kind==='search'){const q=String(fd.get('q')||'').trim();location.hash='#/catalog'+(q?'?q='+encodeURIComponent(q):'');return}
+  if(kind==='order'){
+    const name=String(fd.get('name')||'').trim(),tel=String(fd.get('tel')||'').trim();
+    if(!name||!tel){toast(t('fill'));return}
+    const lines=cartLines(),total=lines.reduce((s,l)=>s+l.p.price*l.q,0);
+    const txt='Заказ MUSLIM SHOP\n\n'+lines.map((l,i)=>(i+1)+'. '+l.p.name.ru+' — '+l.q+' шт. × '+money(l.p.price)+' = '+money(l.p.price*l.q)+'\n   '+prodUrl(l.p)).join('\n')+'\n\nИтого: '+money(total)+'\n\nИмя: '+name+'\nТелефон: '+tel+(fd.get('c')?'\nКомментарий: '+fd.get('c'):'');
+    window.open('https://wa.me/'+CONTACT.wa+'?text='+encodeURIComponent(txt),'_blank','noopener');return;
+  }
+  if(kind==='login'){
+    if(!fauth||typeof signInWithEmailAndPassword!=='function'){toast('Firebase не загружен. Откройте сайт на GitHub Pages в Chrome');return}
+    try{await signInWithEmailAndPassword(fauth,ADMIN_EMAIL,String(fd.get('pn')||'').trim());toast('Вы вошли')}
+    catch(err){const c=err&&err.code||'';toast(c.includes('invalid')||c.includes('wrong')||c.includes('user-not-found')?'Неверный PIN':c.includes('network')?'Нет связи с Firebase':'Не удалось войти: '+(c||err.message||err))}
+    return;
+  }
+  if(!isAdmin())return;
+  if(kind==='product'){
+    const p=editing;if(!p)return;
+    p.name={ru:String(fd.get('nr')).trim(),kk:String(fd.get('nk')).trim()};
+    p.cat=String(fd.get('cat')||'');p.price=Number(fd.get('price'))||0;p.old=Number(fd.get('old'))||0;
+    p.status=fd.get('status');p.qty=Number(fd.get('qty'))||0;p.sku=String(fd.get('sku')).trim();
+    p.desc={ru:String(fd.get('dr')),kk:String(fd.get('dk'))};p.specs={ru:String(fd.get('sr')),kk:String(fd.get('sk'))};
+    p.isNew=fd.get('isNew')?1:0;p.popular=fd.get('popular')?1:0;p.featured=fd.get('featured')?1:0;
+    if(!p.name.ru||p.price<=0){toast('Укажите название и цену');return}
+    toast('Сохраняю…');
+    const sid=await saveProductFB(p);
+    try{await syncLite(sid,p)}catch(e){toast('Сохранено, но лёгкий каталог не обновился: '+(e&&e.message||e));await new Promise(r=>setTimeout(r,1500))}
+    delete FULLC[sid];delete FULLERR[sid];
+    editing=null;await loadData();render();toast('Сохранено');return;
+  }
+}
+document.addEventListener('change',e=>{
+  const el=e.target;
+  if(el.dataset.f){
+    const k=el.dataset.f;CQ[k]=el.type==='checkbox'?el.checked:el.value;
+    const q=[];if(CQ.cat)q.push('cat='+encodeURIComponent(CQ.cat));if(CQ.q)q.push('q='+encodeURIComponent(CQ.q));
+    updateCatalog();return;
+  }
+  if(el.dataset.sel!==undefined){el.checked?SEL.add(el.dataset.sel):SEL.delete(el.dataset.sel);const b=$('#delsel');if(b)b.textContent=selLabel();return}
+  if(el.id==='pfile'&&el.files.length&&editing){
+    const files=Array.from(el.files);el.value='';
+    (async()=>{
+      for(const f of files){
+        if(editing.images.length>=4){toast('Максимум 4 фото');break}
+        const d=await new Promise(r=>compress(f,r));
+        if(d){editing.images.push(d);editing.img=editing.images[0]}
+      }
+      refreshImgs();
+    })();
+  }
+});
+document.addEventListener('input',e=>{
+  const el=e.target;
+  if(el.dataset.f&&(el.type==='number')){CQ[el.dataset.f]=el.value;updateCatalog()}
+});
+
+/* ============ Start ============ */
+(async()=>{
+  const c=await cacheGet();
+  if(c&&c.v===3&&Array.isArray(c.products)&&c.products.length){LITE=!!c.lite;DB.products=c.products;FBCATS=c.cats||null;DB.cats=buildCats();DB.loaded=true}
+  render();started=true;
+  await fbInitP;
+  const fresh=c&&c.v===3&&(Date.now()-c.t<TTL);
+  if(!fresh){
+    const before=DB.loaded?dataSig():'';
+    await loadData();
+    if(!DB.loaded||dataSig()!==before||LOAD_ERR){KEEP=DB.loaded&&!!before;render()}
+  }
+})();
+</script>
+</body>
+</html>
